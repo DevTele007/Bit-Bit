@@ -10,6 +10,10 @@
             --bg-color: var(--tg-theme-bg-color);
             font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
             background-color: var(--bg-color);
+            background-image: url('test.jpg'); /* Add background image */
+            background-size: cover; /* Adjust this to 'contain' or 'auto' as per your requirement */
+            background-position: center center;
+            background-repeat: no-repeat;
             color: var(--tg-theme-text-color);
             margin: 48px 24px;
             padding: 0;
@@ -107,7 +111,7 @@
         });
         Telegram.WebApp.MainButton.onClick(function () {
             Telegram.WebApp.showAlert('Main Button was clicked')
-        });	
+        }); 
         Telegram.WebApp.MainButton.show();
 
         // Function to call showPopup API
