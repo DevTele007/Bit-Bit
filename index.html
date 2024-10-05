@@ -98,13 +98,16 @@
         });
 
         // Show main button
-        Telegram.WebApp.MainButton.setParams({
-            text: 'Main Button'
-        });
-        Telegram.WebApp.MainButton.onClick(function () {
-            Telegram.WebApp.showAlert('Main Button was clicked')
-        }); 
-        Telegram.WebApp.MainButton.show();
+Telegram.WebApp.MainButton.setParams({
+    text: 'Get Started'
+});
+
+Telegram.WebApp.MainButton.onClick(function () {
+    // Redirect to the provided page
+    window.location.href = 'https://devtele007.github.io/Bit-Bit/backup/index.html';
+}); 
+
+Telegram.WebApp.MainButton.show();
 
         // Function to call showPopup API
         function showPopup() {
