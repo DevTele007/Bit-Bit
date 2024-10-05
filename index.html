@@ -10,7 +10,7 @@
             --bg-color: var(--tg-theme-bg-color);
             font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
             background-color: var(--bg-color);
-            background-image: url('test.jpg'); /* Add background image */
+            background-image: url('1.png'); /* Add background image */
             background-size: cover; /* Adjust this to 'contain' or 'auto' as per your requirement */
             background-position: center center;
             background-repeat: no-repeat;
@@ -71,28 +71,10 @@
         <div align="center">
             <a href="https://ton.org/"><img width="48" src="./assets/tapps.png" alt="logo of telegram web apps"></a>
         </div>
-        <h1>Modals</h1>
-        <button onclick="Telegram.WebApp.showAlert('Hello World! Visit us here https://t.me/trendingapps');">Launch Alert</button>
-        <button onclick="showPopup();">Launch Popup</button>
-
-        <h1>Links</h1>
-        <ul>
-            <li>
-                <a href="javascript:Telegram.WebApp.openTelegramLink('https://t.me/trendingapps');">Open link within Telegram</a>
-            </li>
-            <li>
-                <a href="javascript:Telegram.WebApp.openLink('https://ton.org/');">Open link in external browser</a>
-            </li>
-            <li>
-                <a href="javascript:Telegram.WebApp.openLink('https://telegra.ph/api',{try_instant_view:true});">Open link inside Telegram webview</a>
-            </li>
-        </ul>
-
-        <h1>Buttons</h1>
-        <button onclick="Telegram.WebApp.expand();">Expand Webview</button>
-        <button onclick="toggleMainButton();">Toggle Main Button</button>
+      
+        
     </main>
-    <div id="viewport"></div>
+   
     
     
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
